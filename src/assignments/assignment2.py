@@ -29,3 +29,18 @@ def faculty_evaluation_result(nev, rar, som, oft, voft, alw):
     else:
         return "Unacceptable"
 
+def get_ratings(nev,rar,som, oft,voft, alw):
+    '''
+    Students aren't expected to know this material yet!
+    '''
+    ratings = []
+    total = nev + rar + som + oft + voft + alw
+
+    ratings.append(round(alw / total, 2))
+    ratings.append(round(voft / total, 2))
+    ratings.append(round(oft / total, 2))
+    ratings.append(round(som / total, 2))
+    ratings.append(round(rar / total, 2))
+    ratings.append(round(nev / total, 2))
+
+    return ratings
