@@ -2,5 +2,5 @@ language: python
 python:
   - "3.6"
 script:
-  - python -m unittest tests.homework.test_homework2 -v
+  - python -m unittest tests.homework.test_homework1 -v
 
