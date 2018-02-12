@@ -1,5 +1,3 @@
-from src.homework.widget.clock_app import ClockApp
+import src.assignments.main_assignment3
 
-app = ClockApp()
-app.mainloop()
 
