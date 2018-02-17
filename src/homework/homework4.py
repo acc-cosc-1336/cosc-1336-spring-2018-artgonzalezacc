@@ -9,7 +9,7 @@ def valid_letter_grade(letter_grade):
     :return: True boolean expression if letter grade in range False otherwise.
     WRITE YOUR CODE AFTER THE THREE QUOTES BELOW
     '''
-    while letter_grade == 'A' or letter_grade == 'a' or letter_grade == 'B' or letter_grade == 'b' or \
+    if letter_grade == 'A' or letter_grade == 'a' or letter_grade == 'B' or letter_grade == 'b' or \
             letter_grade == 'C' or letter_grade == 'c' or letter_grade == 'D' or letter_grade == 'd' or\
             letter_grade == 'F' or letter_grade == 'f':
         return True
